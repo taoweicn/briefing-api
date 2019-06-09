@@ -42,7 +42,7 @@ JWT 由头部（Header），负载（Payload）和签名（Signature）三部分
 
 AOP 编程可以看作是传统 OOP 编程的补充。在 OOP 中，基于父子类的继承可以看作是一种纵向的结构，从上到下，从浅到深的拓展，而 AOP 则更像是一种横向的结构：提取一组有相同需求的切面，在这个切面上定义统一的业务逻辑。常见的使用场景有日志记录，权限校验等。
 
-在 Spring Boot 中使用 AOP，只需先引入 Spring Boot AOP 的 starter，然后定义切入点（PointCut），再在根据切入点定义所需要的 Advice 来执行对应的业务逻辑即可。
+在 Spring Boot 中使用 AOP，只需先引入 Spring Boot AOP 的 starter，然后定义切入点（PointCut），再根据切入点定义所需要的 Advice 来执行对应的业务逻辑即可。
 
 ### API 可视化
 
